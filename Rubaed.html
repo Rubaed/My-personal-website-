@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rubaed</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+
+<div class="header-image">
+  <div class="header-text">
+    <h1 style="font-size:50px">MD RUBAED AZAD MRIDA</h1>
+    <h3>"Welcome to my site"</h3>
+  </div>
+</div>
+
+<button class="tablink" onclick="openPage('HOME', this, '#073421')"id="defaultOpen">HOME</button>
+<button class="tablink" onclick="openPage('ABOUT', this, '#66551B')">ABOUT</button>
+<button class="tablink" onclick="openPage('BOOKS', this, '#661B1B')">BOOKS</button>
+<button class="tablink" onclick="openPage('STORYS', this, '#194A2A')">STORYS</button>
+<button class="tablink" onclick="openPage('POEMS', this, '#192A4A')">POEMS</button>
+<button class="tablink" onclick="openPage('BLOG', this, '#53493D ')">BLOG</button>
+<button class="tablink" onclick="openPage('CONTACT', this, '#434712')">CONTACT</button>
+
+<div id="HOME" class="tabcontent">
+  <h3>HELLO EVERY ONE</h3> 
+  <p>Welcome to my site. I am MD. Rubaed Azad Mrida. I am student of Depertment of Computer Science & Engineering(CSE). But I wnat to be a writter. This website is designed with my full
+  about of my details. Here I include my poem's, story's & my other details. Please visit my other page's and will give your comment. For emergency you can contact with me by provided form fill up
+or go to my social site with provided links</p>
+  <p> THANK YOU</p>
+</div>
+
+<div id="ABOUT" class="tabcontent">
+  <h2>ABOUT ME</h2>
+  <a target="_blank" href="rub.jpg">
+  <img src="rub.jpg" style="width:200px">
+</a>
+  <p><b>Name</b>              : MD. Rubaed Azad Mrida</p>
+  <p><b>Proffession</b>       : Writter</p>
+  <p><b>Qulification</b>      : B.Sc. in Computer Science & Engineering, (Status: Running Third Year)</p>
+  <p><b>Institution</b>       : University of Development Alternative(UODA)</p>
+  <p><b>Permanent Address</b> : (Vill+P.O) - Lalchandpur, Thana - Monohorganj, Zilla - Comilla</p>
+  <p><b>Present Address</b>   : Dakkhin Khan, Uttara, Dhaka-1230</p>  
+</div>
+
+<div id="BOOKS" class="tabcontent">
+  <h2>MY BOOK LIST</h2>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="kobita.jpg" style="width:40%">
+      <div class="container">
+        <h2>"কবিতায় এপার ওপার - ৪"</h2>
+        <p class="title"><b>Status:</b> Published</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="sondha.jpg" style="width:48%">
+      <div class="container">
+        <h2>"সন্ধ্যাতারা"</h2>
+        <p class="title"><b>Status:</b> Up-Coming</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="golpo.jpg" style="width:40%">
+      <div class="container">
+        <h2>"গল্পে এপার ওপার - ২"</h2>
+        <p class="title"><b>Status:</b> Up-Comeing</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div id="STORYS" class="tabcontent">
+  <h3>Story Collection List</h3>
+     <ul>
+	    <li>প্রাক্তন</li>
+        <li>খুনসুটি</li>
+        <li>ভালবাসার দ্বিতীয় অধ্যায়</li>
+        <li>ঝগড়া</li>
+        <li>বুক পকেট</li>
+     </ul>
+<p>ইত্যাদি....</p>	 
+  
+</div>
+
+<div id="POEMS" class="tabcontent">
+  <h2>Here is my a short poem</h2>
+  <h3>"অভিমান"</h3>
+  <p>শহরজুরে প্রজাপতি গল্প হোক,</p>
+<p>রিকশার ককপিটে আঁকা থাকুক</p>
+<p>তোমার গোলাপ রঙ প্রিজমা ছবি !</p>
+
+<p>ক্যামেলিয়া সন্ধ্যায় আমার বুক পকেটে জমা থাকুক</p>
+<p>তোমার একবেলা অভিমান !</p>
+
+<p>আহ ! বাঁকা চোখের চড়ুই! পৃথিবীর সুন্দরতম সংসার....</p>
+</div>
+
+<div id="BLOG" class="tabcontent">
+  <h3>Any "BLOG" Not available now. Stay with me. I will create my blog very quickly.</h3>
+  <p>THANK YOU</p>
+</div>
+
+<div id="CONTACT" class="tabcontent">
+  <h2> Contact with me By:</h2>
+  <p><b>E-mail:</b>mdrubaed.azad@gmail.com</p>
+  <p><b>Contact Number:</b>+8801632903884 </p>
+  <p><b>And I provide my all social links in footer menu in this site</b></p>
+  <p><b>THANK YOU</b></p>
+</div>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Bangladesh</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+<div class="footer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<button class="btn"><a target="_blank" aria-label="facebook" href="https://www.facebook.com/mdrubaedazad.mrida" class="fa fa-facebook"></a></button>
+<button class="btn"><a target="_blank" aria-label="instagram" href="https://www.instagram.com/rubaed_azad" class="fa fa-instagram"></a></button>
+<button class="btn"><i class="fa fa-linkedin"></i></button>
+<button class="btn"><i class="fa fa-twitter"></i></button>
+<button class="btn"><i class="fa fa-google"></i></button>
+<p></p>
+<p>©Content Reserved by: mdrubaed.azad@gmail.com<p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
